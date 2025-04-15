@@ -13,12 +13,14 @@
       background-color: #fdf6f0;
       color: #2f2f2f;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
     }
     .container {
       text-align: center;
+      padding: 2rem;
     }
     h1 {
       font-family: 'Playfair Display', serif;
@@ -31,12 +33,25 @@
       max-width: 600px;
       margin: 0 auto;
     }
+    .contact {
+      margin-top: 4rem;
+      font-size: 0.9em;
+      font-style: italic;
+      color: #5a5a5a;
+    }
+    .contact a {
+      color: #5a5a5a;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Hanover Vale</h1>
     <p>I’m a food writer and researcher with Archipelago Seattle, exploring the stories and histories embedded in Filipino American food culture.</p>
+    <p class="contact">
+      Want to get in touch? <a href="mailto:hanoverv23@example.com">Send me an email</a>
+    </p>
   </div>
 </body>
 </html>
